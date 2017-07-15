@@ -1,0 +1,63 @@
+/*CSS reset stylesheet*/
+body, html, h1, h2 {
+	padding: 0%;
+	margin: 0%;
+}
+
+#about {
+	background-color: black;
+	height: 60px;
+}
+
+h1 {
+	color: white;
+ }
+
+/*speech src https://www.sitepoint.com/pure-css3-speech-bubbles/*/
+#speech {
+  position: relative;
+  width: 800px;
+  height: 400px;
+  text-align: center;
+  line-height: 100px;
+  background-color: #fff;
+  border: 1px solid #666;
+  border-radius: 50px;
+  margin:0 auto;
+  background-color: lightgray;
+}
+
+
+/*
+#speech {
+/*border-radius: 50%;*/
+width: 50%;
+height: 400px;
+padding-top: 50%;
+background-color: black;
+}
+
+
+
+
+/* speech-bubble src http://leaverou.github.io/bubbly*/
+#speech-bubble {
+	position: relative;
+	background: #00aabb;
+	border-radius: .4em;
+}
+
+#speech-bubble:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-top-color: #00aabb;
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -10px;
+	margin-bottom: -20px;
+}

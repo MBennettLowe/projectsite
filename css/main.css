@@ -4,31 +4,94 @@ body, html, h1, h2 {
 	margin: 0%;
 }
 
+body {
+	background-color: yellow;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
 #about {
 	background-color: black;
 	height: 60px;
+
 }
 
 h1 {
 	color: white;
+	/*margin-left: 28%px;*/
  }
+
+ #section {
+ 	display: flex;
+ 	justify-content: space-between;
+}
 
 /*speech src https://www.sitepoint.com/pure-css3-speech-bubbles/*/
 #speech {
   position: relative;
   width: 800px;
   height: 400px;
-  text-align: center;
   line-height: 100px;
   background-color: #fff;
   border: 1px solid #666;
   border-radius: 50px;
   margin:0 auto;
   background-color: lightgray;
+  /*padding-top: 15%px;*/
 }
 
+#speech h1 {
+	text-align: center;
+	width:;
+}
+
+#speech h2 {
+	width: 160px;
+}
+
+#circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  font-size: 10px;
+  color: #fff;
+  line-height: 10px;
+  text-align: center;
+  vertical-align: middle;
+  background: #000
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
 
 /*
+
+.talk-bubble {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+    left: auto;
+	right: -8px;
+	bottom: -40px;
+	border: 20px solid;
+	border-color: #666 #666 transparent transparent;
+}
+
+.talktext {
+	background-color: white;
+	border: 1px solid #000;
+    border-radius: 50px;
+    width:160px;
+	height: 115px;
+	margin: 0 auto;
+}
+*/
+
+/*
+
+
 #speech {
 /*border-radius: 50%;*/
 width: 50%;
@@ -37,10 +100,8 @@ padding-top: 50%;
 background-color: black;
 }
 
-
-
-
 /* speech-bubble src http://leaverou.github.io/bubbly*/
+/*
 #speech-bubble {
 	position: relative;
 	background: #00aabb;
@@ -61,3 +122,4 @@ background-color: black;
 	margin-left: -10px;
 	margin-bottom: -20px;
 }
+*/
